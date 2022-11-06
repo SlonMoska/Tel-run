@@ -13,6 +13,7 @@
 h1 {
     text-align: center;
     font-size: 45px;
+    text-transform: uppercase;
 }
 .divOne {
     padding-top: 20px;
@@ -21,7 +22,7 @@ h1 {
     margin: 20px;
 }
 .divOne img {
-    height: 185px;
+    height: 180px;
 }
 .divTwo {
     padding-top: 20px;
@@ -29,9 +30,32 @@ h1 {
     height: 250px;
     margin: 20px;
 }
+.divTwo img {
+    height: 150px;
+    display: inline;
+    text-align: center;
+    padding: 5px 75px 0px 75px;
+}
 .divTree {
     padding-top: 20px;
     background-color: yellow;
     height: 250px;
     margin: 20px;
+}
+.divTree img {
+    height: 180px;
+}
+a {
+    font-size: 30px;
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+.div-icon {
+    border: 2px solid black;
+    margin: 5px;
+
+}
+.div-icon img {
+    height: 20px;
 }
