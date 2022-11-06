@@ -1,0 +1,33 @@
+ * {
+    margin: 0px;
+    padding: 0px;
+    font-size: 25px;
+ }
+.one {
+    text-align: center;
+    border: 5px solid black;
+    padding-top: 20px;
+    margin: 10px;
+}
+h1 {
+    text-align: center;
+    font-size: 45px;
+}
+.divOne {
+    padding-top: 20px;
+    background-color: brown;
+    height: 250px;
+    margin: 20px;
+}
+.divTwo {
+    padding-top: 20px;
+    background-color: aqua;
+    height: 250px;
+    margin: 20px;
+}
+.divTree {
+    padding-top: 20px;
+    background-color: yellow;
+    height: 250px;
+    margin: 20px;
+}
