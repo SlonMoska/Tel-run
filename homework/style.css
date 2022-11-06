@@ -3,6 +3,7 @@
     padding: 0px;
     font-size: 25px;
  }
+ 
 .one {
     text-align: center;
     border: 5px solid black;
@@ -18,6 +19,9 @@ h1 {
     background-color: brown;
     height: 250px;
     margin: 20px;
+}
+.divOne img {
+    height: 185px;
 }
 .divTwo {
     padding-top: 20px;
