@@ -1,0 +1,15 @@
+* {
+    padding: 0px;
+    width: 0px;
+    font-size: 25px;
+}
+body {
+    background-image: none;
+    background-image: url(/myHomeWork/two/hello.png);
+    background-repeat: no-repeat ;
+    background-attachment: fixed;
+    background-position: 60% 100%;
+}
+p {
+    width: 350px;
+}
