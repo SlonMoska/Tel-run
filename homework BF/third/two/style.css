@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.one {
+    padding: 20px;
+    border: 1px solid black;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+}
+.first {
+    border: 3px solid blue;
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+.second {
+    border: 3px solid red;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    margin: 20px 0px 0px 70px;
+    
+}
+.third {
+    position: relative;
+    border: 3px solid green; 
+    width: 50px;
+    height: 50px;
+    margin: 20px 0px 0px 140px;
+}
+.first1 {
+    border: 3px solid blue;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
+.second1 {
+    border: 3px solid red;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin-left: 70px;
+    
+}
+.third1 {
+    position: absolute;
+    border: 3px solid green; 
+    width: 50px;
+    height: 50px;
+    margin-left: 140px;
+}
+.first2 {
+    border: 3px solid blue;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
+.second2 {
+    border: 3px solid red;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin: 30px;
+    
+}
+.third2 {
+    position: absolute;
+    border: 3px solid green; 
+    width: 50px;
+    height: 50px;
+    margin: 60px;
+}
+.first3 {
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+.second3 {
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    margin: -15px 0 0 35px;
+    
+}
+.third3 {
+    position: relative;
+    background-color: green;
+    width: 50px;
+    height: 50px;
+    margin: -15px 0 0 70px;
+}
+.first4 {
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+.second4 {
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    margin: -15px 0 0 35px;
+    z-index: 1;
+    
+}
+.third4 {
+    position: relative;
+    background-color: green;
+    width: 50px;
+    height: 50px;
+    margin: -15px 0 0 70px;
+}
+.first5 {
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+.second5 {
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    margin: -15px 0 0 35px;
+    z-index: -1;
+    
+}
+.third5 {
+    position: relative;
+    background-color: green;
+    width: 50px;
+    height: 50px;
+    margin: -15px 0 0 70px;
+}
+.first6 {
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    z-index: 2;
+}
+.second6 {
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    margin: -15px 0 0 35px;
+    z-index: 1;
+    
+}
+.third6 {
+    position: relative;
+    background-color: green;
+    width: 50px;
+    height: 50px;
+    margin: -15px 0 0 70px;
+}
+.smile {
+    display: inline-block;
+    border-radius: 50%;
+    background-color: aqua;
+    width: 500px;
+    height: 500px;
+    margin: 50px;
+}
+.eye-one {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    background-color: white;
+    margin: 150px 0 0 100px;
+    border-radius: 50%;
+}
+.eye-two {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    margin: 150px 0 0 300px;
+    border-radius: 50%;
+}
+.nose-one {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    margin: 250px 0 0 220px;
+}
+.roth-one {
+    position: absolute;
+    width: 250px;
+    height: 20px;
+    background-color: white;
+    margin: 350px 0 0 120px;
+}
+.eye-one-two {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    margin: 150px 0 0 100px;
+    border-radius: 50%;
+    z-index: 2;
+}
+.eye-two-two {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    margin: 150px 0 0 300px;
+    border-radius: 50%;
+    z-index: 2;
+}
+.nose-two {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    margin: 250px 0 0 200px;
+    border-radius: 50px;
+    z-index: 2;
+}
+.roth-two {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-color: white;
+    margin: 180px 0 0 120px;
+    border-radius: 50%;
+    z-index: 0;
+}
+.circle {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    background-color: aqua;
+    margin:40px 0 0 70px;
+    border-radius: 50%;
+    z-index: 1;
+}
