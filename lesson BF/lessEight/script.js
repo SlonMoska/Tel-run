@@ -22,4 +22,5 @@ console.log(fruits);
 
 let spl = fruits.splice(fruits.indexOf("Apple"),2);
 
-console.log(spl)
+console.log(spl);
+console.log(fruits);
