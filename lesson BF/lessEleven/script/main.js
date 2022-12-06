@@ -60,23 +60,66 @@
 // в виде элементов
 // Решение:
 
-// Создаем список
-const ul = document.createElement('ul');
-// Добавляем список в элемент body
-document.body.append(ul);
-// Входим в бесконечный цикл
-while(true) {
-    // Вводим данные (строка для элемента списка)
-    let listItemContent = prompt("Введите, что вы хотите купить в магазине", "");
-    // обратываем условие выхода из цикла - если пользователь ввел пустую строку,
-    // цикл завершается
-    if(!listItemContent) {
-        break;
-    }
-    // создаем элемент списка (тег li)
-    let li = document.createElement('li');
-    // добавили введную строку в созданный элемент
-    li.innerHTML = listItemContent;
-    // добавили созданный элемент в конец списка
-    ul.append(li);
+// // Создаем список
+// const ul = document.createElement('ul');
+// // Добавляем список в элемент body
+// document.body.append(ul);
+// // Входим в бесконечный цикл
+// while(true) {
+//     // Вводим данные (строка для элемента списка)
+//     let listItemContent = prompt("Введите, что вы хотите купить в магазине", "");
+//     // обратываем условие выхода из цикла - если пользователь ввел пустую строку,
+//     // цикл завершается
+//     if(!listItemContent) {
+//         break;
+//     }
+//     // создаем элемент списка (тег li)
+//     let li = document.createElement('li');
+//     // добавили введную строку в созданный элемент
+//     li.innerHTML = listItemContent;
+//     // добавили созданный элемент в конец списка
+//     ul.append(li);
+// }
+
+// //! read
+// const first = () => {
+//     console.log(1);
+// }
+// const second = () => (
+//     console.log(2)
+// )
+// // first();
+// // second();
+// const thrid = () => {
+//     setTimeout(() => {
+//         console.log(3);
+//     }, 1000)
+// }
+
+// const four = () => {
+
+// }
+// // thrid();
+// // four();
+// //! read
+
+//Создадим функцию вывода задач в консоль
+
+const showTasks = (task, callback) => {
+    // Вывели задачу в консоль
+    console.log(`Сеодня нужно что то сделать: ${task}`);
+    // вызвали колбек функцию (любую, какую мы переделали в качестве аргумента)
+    callback ();
 }
+// Создали функцию итогов дня
+const daySummary = () => {
+    console.log('Hellow world');
+}
+
+
+const weekendSummary = () => {
+    console.log('bye bye');
+}
+//
+showTasks('Good', daySummary);
+showTasks ('brrrrrrr', weekendSummary);
