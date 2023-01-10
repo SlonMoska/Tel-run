@@ -1,4 +1,4 @@
-// 1 variant 1
+//======================================================  1 variant 1
 function reverse(str) {
   let word = '', i;
   for (i = str.length - 1; i >= 0; i--) {
@@ -8,7 +8,7 @@ function reverse(str) {
 }
   console.log(reverse('hello world'));
 
-// 1 variant 2
+//======================================================  1 variant 2
 const word = 'Hello world!'
 let reverseWord = '';
 
@@ -17,7 +17,7 @@ for (let x = word.length - 1; x >= 0; x--) {
 };
 console.log(reverseWord)
 
-// 2
+//======================================================  2
 function palindromWordCheck(string) {
   const lastIndex = string.length - 1;
 
@@ -31,7 +31,7 @@ function palindromWordCheck(string) {
 console.log(palindromWordCheck("lookl"))
 console.log(palindromWordCheck("lol"))
 
-// 3
+//====================================================== 3
 const multi = (n, maxNum) => {
   let number = [];
   for (let i = 1; i < maxNum; i++) {
@@ -43,7 +43,7 @@ const multi = (n, maxNum) => {
 }
 console.log(multi(5, 50));
 
-4
+//======================================================  4
 const arr = [
   {title: 'smartphone', price: 939},
   {title: 'refrigerator', price: 39},
@@ -55,13 +55,13 @@ for(let x = 0; x < arr.length; x++) {
   console.log(arr[x].title)
 }
 
-// 5
+//======================================================  5
 for(let x = 0; x < arr.length; x++)
  {
   console.log(`<${arr[x].title}> (<${arr[x].price}>)`);
 }
 
-// 6
+//======================================================  6
 function maxPriceProduct(arr) {
   let maxPrice = 0;
   let newObjWithMaxPrice = null;
