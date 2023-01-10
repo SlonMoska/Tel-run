@@ -76,3 +76,6 @@ function maxPriceProduct(arr) {
   return newObjWithMaxPrice;
 }
 console.log(maxPriceProduct(arr))
+
+
+// я не знаю как я это сделал ...
